@@ -1,0 +1,24 @@
+#video-wrapper {
+  text-align: center;
+  background-color: #343434;
+  border-radius: 4px;
+}
+
+#remote-video {
+  width: 900px;
+  height: auto;
+  border-radius: 4px;
+}
+
+#local-video {
+  z-index: 1;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 10vw;
+  height: 10vw;
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 3px solid white;
+  border-radius: 4px;
+}
